@@ -116,5 +116,5 @@ tabela['Preço de Venda'] = float(tabela['Preço de Compra'] * tabela['Margem'])
 # In[20]:
 
 
-# Passo 6: Exportar a base de preços atualizada
+# Passo 6: Exportar a base de preços atualizada -- bug em geração de excel 
 tabela.to_excel('Produtos Novo.xlsx', index=False)
